@@ -16,6 +16,7 @@ public class Fajl {
 		Scanner unos=new Scanner (System.in);
 		System.out.print("Unesite ime fajla: ");
 		File file= new File(unos.nextLine());
+		unos.close();
 		
 		try {
 		     BufferedReader buffer = new BufferedReader(new FileReader(file));
@@ -28,16 +29,18 @@ public class Fajl {
 		            	else bk++;
 		            	}
 		            br++;
+		            
 		            }
+		        buffer.close();
 						
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.err.println("Vas fajl nije pronadjen!");
+			System.exit(0);
+//			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 		System.out.println("Vas fajl ima "+bk+" karaktera, "+br+" rijeci i "+bl+" linija");
 
 	}
