@@ -1,0 +1,13 @@
+1. Napisati program koji ispisuje sve prestupne godine, 10 po liniji, od godine 101 do 2100, odvojene jednim spaceom. Takoder ispisati i ukupan broj prijestupnih godina u ovom vremenskom periodu.
+
+2. Napisati metodu koja prima jedan argument, broj pitanja, te generiše toliko nasumicnih, jednostavnih pitanja oduzimanja tipa : „Koliko je 5 - 2 ?“. Metoda treba da broji broj tacnih i netacnih odgovora te ih ispiše korisniku.
+
+3. Napišite program koji ce brojati broj karaktera, rijeci i linija teksta u nekom fileu. Rijeci trebaju biti odvojene jednim spaceom. Ime file proslijediti kao argument u vaš program.
+
+4. Napisati metodu koja ispisuje n x n matricu korsiteci sljedeci header:
+
+public static void printMatrix(int n)
+
+Svaki element u matrici je ili 0 ili 1, generisan nasumicno. Napisati test program koji pita korisnika da unese n te ispisuje n x n matricu.
+
+5. Napisati metodu koja prima jedan argument te simulira bacanje novcica toliko puta. Nakon što se simulacija završi, program ispisuje koliko puta je novcic pokazao glavu a koliko puta pismo.
