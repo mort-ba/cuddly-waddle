@@ -22,6 +22,7 @@ public class Nasumicno {
 			System.out.print("Koliko je "+n1+"-"+n2+" ? ");
 			if (unos.nextInt()==n1-n2) tacni++;
 		}
+		unos.close();
 		System.out.println("Imali ste "+tacni+" tacnih i "+ (a-tacni)+" netacnih odgovora.");
 	}
 
